@@ -100,7 +100,7 @@ git clone https://github.com/chandanchanchal/learning-app-ecommerce.git /var/www
 
 5. Update index.php
 
-Update [index.php](https://github.com/kodekloudhub/learning-app-ecommerce/blob/master/index.php) file to connect to the right database server. In this case `localhost` since the database is on the same server.
+Update [index.php](https://github.com/chandanchanchal/learning-app-ecommerce/blob/master/index.php) file to connect to the right database server. In this case `localhost` since the database is on the same server.
 
 ```
 sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
